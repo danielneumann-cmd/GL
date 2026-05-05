@@ -17,11 +17,11 @@ export default async function ProfilePage() {
   return (
     <AppShell locale={locale}>
       <div className="space-y-6">
-        <header className="space-y-3 pt-2">
+        <header className="rounded-[34px] border border-white/75 bg-white/90 p-5 shadow-card backdrop-blur-xl">
           <Logo variant="header" />
-          <div className="space-y-1">
-            <h1 className="text-3xl font-extrabold tracking-tight text-text-primary">{t("profile.title")}</h1>
-            <p className="text-base text-text-secondary">{t("app.claim")}</p>
+          <div className="mt-5 space-y-1">
+            <h1 className="text-3xl font-black tracking-[-0.04em] text-text-primary">{t("profile.title")}</h1>
+            <p className="text-base leading-7 text-text-secondary">{t("app.claim")}</p>
           </div>
         </header>
 

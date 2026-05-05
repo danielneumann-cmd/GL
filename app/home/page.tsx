@@ -32,22 +32,26 @@ export default async function HomePage() {
   return (
     <AppShell locale={locale}>
       <div className="space-y-6">
-        <header className="space-y-4 pt-2">
+        <header className="overflow-hidden rounded-[34px] border border-white/75 bg-white/90 p-5 shadow-card backdrop-blur-xl">
           <div className="flex items-center justify-between">
             <Logo variant="header" priority />
-            <span className="rounded-pill bg-white px-3 py-1 text-[11px] font-bold text-text-soft shadow-soft">v0.8</span>
+            <span className="rounded-pill bg-app-surface px-3 py-1 text-[11px] font-extrabold text-text-soft">v0.9</span>
           </div>
-          <div className="space-y-1">
-            <h1 className="text-3xl font-extrabold tracking-tight text-text-primary">{t("home.title")}</h1>
-            <p className="text-sm font-semibold text-text-secondary">{t("home.greeting", { name })}</p>
-            <p className="text-base text-text-secondary">{t("home.subtitle")}</p>
+          <div className="mt-6 space-y-1">
+            <p className="text-sm font-extrabold text-good-greenDeep">{t("home.greeting", { name })}</p>
+            <h1 className="text-4xl font-black tracking-[-0.05em] text-text-primary">{t("home.title")}</h1>
+            <p className="max-w-[30ch] text-base leading-7 text-text-secondary">{t("home.subtitle")}</p>
           </div>
         </header>
 
-        <Card className="text-center">
-          <p className="text-sm font-semibold text-text-secondary">{t("home.completedToday", { done: doneCount, total: totalCount })}</p>
-          <div className="mt-4"><ProgressRing done={doneCount} total={totalCount} /></div>
-          <p className="mt-3 text-sm font-semibold text-text-secondary">{totalCount > 0 && doneCount === totalCount ? t("home.allDone") : t("home.notAllDone")}</p>
+        <Card className="relative overflow-hidden text-center">
+          <div className="absolute -right-10 -top-12 h-28 w-28 rounded-full bg-good-greenSoft" />
+          <div className="absolute -bottom-14 -left-12 h-32 w-32 rounded-full bg-good-blueSoft" />
+          <div className="relative">
+            <p className="text-sm font-extrabold text-text-secondary">{t("home.completedToday", { done: doneCount, total: totalCount })}</p>
+            <div className="mt-4"><ProgressRing done={doneCount} total={totalCount} /></div>
+            <p className="mx-auto mt-3 max-w-[28ch] text-sm font-semibold leading-6 text-text-secondary">{totalCount > 0 && doneCount === totalCount ? t("home.allDone") : t("home.notAllDone")}</p>
+          </div>
         </Card>
 
         <section className="space-y-3">
@@ -57,7 +61,7 @@ export default async function HomePage() {
           </div>
 
           {goals.length > 0 && (
-            <Card className="bg-app-surface shadow-none">
+            <Card className="border-white/70 bg-app-surface/85 shadow-none">
               <p className="text-sm font-extrabold text-text-primary">{t("home.focusTitle")}</p>
               <p className="mt-1 text-sm text-text-secondary">{t("home.focusText")}</p>
               {hiddenGoalCount > 0 && <p className="mt-2 text-xs font-bold text-good-blueDeep">{t("home.moreGoals", { count: hiddenGoalCount })}</p>}
@@ -82,19 +86,19 @@ export default async function HomePage() {
         </section>
 
         <div className="grid gap-3 sm:grid-cols-2">
-          <Card className="bg-good-coralSoft shadow-none">
+          <Card className="bg-good-coralSoft/80 shadow-none">
             <p className="text-sm font-extrabold text-good-coralDeep">{t("home.tipTitle")}</p>
             <p className="mt-1 text-sm text-text-secondary">{t("home.tipText")}</p>
           </Card>
 
-          <Card className="bg-good-blueSoft shadow-none">
+          <Card className="bg-good-blueSoft/80 shadow-none">
             <p className="text-sm font-extrabold text-good-blueDeep">{t("home.microWinTitle")}</p>
             <p className="mt-1 text-sm text-text-secondary">{t("home.microWinText")}</p>
           </Card>
         </div>
 
         {!profile?.reminder_enabled && goals.length > 0 ? (
-          <Card className="bg-good-greenSoft shadow-none">
+          <Card className="bg-good-greenSoft/85 shadow-none">
             <p className="text-sm font-extrabold text-good-greenDeep">{t("home.reminderNudgeTitle")}</p>
             <p className="mt-1 text-sm text-text-secondary">{t("home.reminderNudgeText")}</p>
             <Link href="/profile" className="mt-3 inline-flex text-sm font-bold text-good-greenDeep">

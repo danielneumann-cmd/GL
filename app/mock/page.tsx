@@ -14,18 +14,18 @@ export default async function MockPage() {
   return (
     <main className="mx-auto min-h-screen w-full max-w-[980px] px-5 py-10">
       <div className="grid gap-8 lg:grid-cols-[360px_1fr] lg:items-start">
-        <section className="rounded-[36px] border border-app-border bg-white/80 p-6 shadow-card backdrop-blur">
+        <section className="rounded-[36px] border border-white/75 bg-white/90 p-6 shadow-card backdrop-blur">
           <Logo priority />
           <h1 className="mt-6 text-4xl font-extrabold text-text-primary">{t("mock.title")}</h1>
           <p className="mt-3 text-text-secondary">{t("mock.subtitle")}</p>
           <div className="mt-6 flex gap-3"><Button>Start</Button><Button variant="secondary">Branding</Button></div>
-          <div className="mt-6 overflow-hidden rounded-[28px] border border-app-border bg-app-background">
+          <div className="mt-6 overflow-hidden rounded-[28px] border border-white/75 bg-app-background">
             <Image src="/brand-preview.svg" alt="GoodLoop Branding Vorschau" width={640} height={405} />
           </div>
         </section>
 
-        <section className="mx-auto w-full max-w-[430px] rounded-[42px] border border-app-border bg-app-background p-5 shadow-card">
-          <header className="flex items-center justify-between"><Logo variant="header" /><span className="rounded-pill bg-white px-4 py-2 text-xs font-bold text-good-greenDeep shadow-soft">v0.8</span></header>
+        <section className="mx-auto w-full max-w-[430px] rounded-[42px] border border-white/75 bg-app-background p-5 shadow-card">
+          <header className="flex items-center justify-between"><Logo variant="header" /><span className="rounded-pill bg-white px-4 py-2 text-xs font-bold text-good-greenDeep shadow-soft">v0.9</span></header>
           <div className="mt-6"><h2 className="text-3xl font-extrabold">Heute</h2><p className="mt-1 text-text-secondary">Eine kleine gute Entscheidung reicht für heute.</p></div>
           <Card className="mt-6 text-center"><ProgressRing done={2} total={3} /><p className="mt-2 text-sm font-semibold text-text-secondary">2 von 3 geschafft</p></Card>
           <div className="mt-5 space-y-3">

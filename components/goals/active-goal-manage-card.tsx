@@ -25,21 +25,21 @@ export function ActiveGoalManageCard({ title, category, durationDays, doneDays, 
   return (
     <Card className="space-y-4">
       <div className="flex items-start gap-4">
-        <div className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl ${theme.bg} ${theme.text}`}>
+        <div className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-[20px] ${theme.bg} ${theme.text}`}>
           <GoalIcon name={icon} className="h-6 w-6" />
         </div>
         <div className="min-w-0 flex-1">
           <div className="flex items-start justify-between gap-3">
-            <p className="font-extrabold text-text-primary">{title}</p>
-            <span className={`rounded-pill px-3 py-1 text-xs font-extrabold ${theme.bg} ${theme.text}`}>{statusLabel}</span>
+            <p className="font-black tracking-[-0.02em] text-text-primary">{title}</p>
+            <span className={`shrink-0 rounded-pill px-3 py-1 text-xs font-extrabold ${theme.bg} ${theme.text}`}>{statusLabel}</span>
           </div>
-          <p className="mt-1 text-sm text-text-secondary">{progressLabel}</p>
-          <p className="text-xs font-semibold text-text-soft">{remainingLabel}</p>
+          <p className="mt-1 text-sm leading-6 text-text-secondary">{progressLabel}</p>
+          {remainingLabel ? <p className="text-xs font-bold text-text-soft">{remainingLabel}</p> : null}
         </div>
       </div>
 
-      <div className="h-2 overflow-hidden rounded-full bg-app-surface">
-        <div className={`h-full ${theme.accent}`} style={{ width: `${percentage}%` }} />
+      <div className="h-2.5 overflow-hidden rounded-full bg-app-surface">
+        <div className={`h-full rounded-full ${theme.accent} transition-all duration-300`} style={{ width: `${percentage}%` }} />
       </div>
 
       <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">{actions}</div>

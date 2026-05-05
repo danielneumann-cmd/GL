@@ -13,7 +13,7 @@ Kernidee:
 - Bottom-Navigation bewusst schlank gehalten
 - ruhiges Branding mit dreifarbigem Balance-Loop
 
-## Aktueller Stand: v0.8.0
+## Aktueller Stand: v0.9.0
 
 Enthalten:
 
@@ -92,7 +92,7 @@ https://github.com/danielneumann-cmd/GL.git
 
 ## Upgrade-Hinweise
 
-Wenn du von v0.7 kommst, ist für v0.8 keine neue Supabase-Migration nötig.
+Wenn du von v0.7 kommst, ist für v0.9 keine neue Supabase-Migration nötig.
 
 Wenn du von älteren Versionen kommst, beachte zusätzlich:
 

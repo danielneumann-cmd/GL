@@ -1,3 +1,14 @@
+## v0.9.0
+
+UI-Feinschliff ohne neue Produktfunktionen.
+
+- App-Shell, Bottom-Navigation und Header optisch ruhiger und hochwertiger gestaltet.
+- Karten, Buttons und Zielkarten mit weicheren Abständen, Fokuszuständen und Schatten überarbeitet.
+- Home-Screen als stärkerer Tages-Hero mit klarerem Fortschrittsbereich.
+- Onboarding und Login visuell beruhigt und stärker an das Branding angepasst.
+- Progress-Ring auf Prozentdarstellung umgestellt, damit der Tagesstatus schneller erfassbar ist.
+- Keine neue Supabase-Migration.
+
 # Changelog
 
 ## v0.8.0

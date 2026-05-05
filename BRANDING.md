@@ -1,4 +1,4 @@
-# GoodLoop Branding v0.8
+# GoodLoop Branding v0.9
 
 GoodLoop ist eine helle, ruhige und freundliche App für kleine gesunde Alltagsziele. Die Marke soll motivieren, ohne zu drängen. Der Kern ist nicht Leistung, sondern Balance.
 
@@ -69,7 +69,7 @@ Das GoodLoop-Logo nutzt einen dreifarbigen Balance-Loop:
 - Blau für Move
 - Koralle für Balance
 
-Die drei Segmente formen einen ruhigen, kreisförmigen Balance-Marker und stehen für gesunde Routinen, Vitalität und Bewegung als zusammenhängenden Alltag. Diese Richtung wurde als finale v0.8-Logo-Basis gewählt.
+Die drei Segmente formen einen ruhigen, kreisförmigen Balance-Marker und stehen für gesunde Routinen, Vitalität und Bewegung als zusammenhängenden Alltag. Diese Richtung wurde als finale v0.9-Logo-Basis gewählt.
 
 Dateien:
 
@@ -101,7 +101,7 @@ public/brand-preview.svg
 ```
 
 
-## v0.8 Logo-Entscheidung
+## v0.9 Logo-Entscheidung
 
 Die gewählte Logo-Richtung ist der runde Drei-Bereiche-Marker:
 

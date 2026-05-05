@@ -1,0 +1,17 @@
+{
+  "name": "GoodLoop",
+  "short_name": "GoodLoop",
+  "description": "Kleine Ziele. Gute Balance.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAFBF7",
+  "theme_color": "#35B86B",
+  "icons": [
+    {
+      "src": "/app-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

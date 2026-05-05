@@ -1,0 +1,41 @@
+<svg width="760" height="240" viewBox="0 0 760 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GoodLoop Logo</title>
+  <desc id="desc">GoodLoop wordmark with the three-part Healthy, Heart and Move balance symbol.</desc>
+  <defs>
+    <linearGradient id="green" x1="47" y1="42" x2="121" y2="132" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#74E36E"/><stop offset="1" stop-color="#27B85F"/>
+    </linearGradient>
+    <linearGradient id="coral" x1="162" y1="40" x2="222" y2="152" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF766F"/><stop offset="1" stop-color="#F54747"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="74" y1="151" x2="229" y2="206" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#42B7FF"/><stop offset="1" stop-color="#0878F2"/>
+    </linearGradient>
+    <filter id="soft" x="0" y="0" width="260" height="240" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#1F2933" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="760" height="240" rx="40" fill="white"/>
+  <g filter="url(#soft)">
+    <g transform="translate(35 27) scale(.54)">
+      <rect x="42" y="42" width="428" height="428" rx="96" fill="#FFFFFF"/>
+      <g transform="translate(78 78)">
+        <path d="M179 12C102 12 39 68 29 139C23 182 39 225 66 256C67 178 133 126 196 125C210 86 206 45 179 12Z" fill="url(#green)"/>
+        <path d="M237 26C302 46 341 106 332 171C326 222 291 260 247 279C300 297 354 282 387 244C398 157 340 67 237 26Z" fill="url(#coral)"/>
+        <path d="M75 279C111 342 185 376 257 356C317 339 360 294 376 240C315 287 228 282 177 225C134 225 94 243 75 279Z" fill="url(#blue)"/>
+        <path d="M178 60C150 66 132 82 121 111" stroke="white" stroke-width="16" stroke-linecap="round"/>
+        <path d="M144 105C132 76 102 70 83 82C86 111 112 127 137 116" fill="white"/>
+        <path d="M166 100C174 65 204 52 230 57C231 94 200 122 169 117" fill="white"/>
+        <path d="M286 120C286 99 312 88 328 105C345 88 371 99 371 121C371 153 328 176 328 176C328 176 286 153 286 120Z" fill="white"/>
+        <circle cx="214" cy="245" r="15" fill="white"/>
+        <path d="M198 270L171 296" stroke="white" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M197 270L230 286" stroke="white" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M230 286L258 265" stroke="white" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M181 296L155 332" stroke="white" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M226 289L255 333" stroke="white" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+  </g>
+  <text x="254" y="115" font-family="Manrope, Inter, Arial, sans-serif" font-size="68" font-weight="850" letter-spacing="-2.8" fill="#181A1F">GoodLoop</text>
+  <text x="258" y="162" font-family="Manrope, Inter, Arial, sans-serif" font-size="24" font-weight="560" letter-spacing="2.4" fill="#4B5563">Kleine Ziele. Gute Balance.</text>
+</svg>

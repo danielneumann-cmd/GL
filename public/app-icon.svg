@@ -1,0 +1,41 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GoodLoop App Icon</title>
+  <desc id="desc">GoodLoop balance mark with Healthy, Heart and Move segments.</desc>
+  <defs>
+    <linearGradient id="bg" x1="70" y1="40" x2="460" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F6F8F5"/>
+    </linearGradient>
+    <linearGradient id="green" x1="126" y1="111" x2="252" y2="265" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#74E36E"/>
+      <stop offset="1" stop-color="#27B85F"/>
+    </linearGradient>
+    <linearGradient id="coral" x1="326" y1="106" x2="420" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF766F"/>
+      <stop offset="1" stop-color="#F54747"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="169" y1="294" x2="394" y2="399" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#42B7FF"/>
+      <stop offset="1" stop-color="#0878F2"/>
+    </linearGradient>
+    <filter id="shadow" x="32" y="32" width="448" height="448" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#1F2933" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect x="42" y="42" width="428" height="428" rx="96" fill="url(#bg)" filter="url(#shadow)"/>
+  <g transform="translate(78 78)">
+    <path d="M179 12C102 12 39 68 29 139C23 182 39 225 66 256C67 178 133 126 196 125C210 86 206 45 179 12Z" fill="url(#green)"/>
+    <path d="M237 26C302 46 341 106 332 171C326 222 291 260 247 279C300 297 354 282 387 244C398 157 340 67 237 26Z" fill="url(#coral)"/>
+    <path d="M75 279C111 342 185 376 257 356C317 339 360 294 376 240C315 287 228 282 177 225C134 225 94 243 75 279Z" fill="url(#blue)"/>
+    <path d="M178 60C150 66 132 82 121 111" stroke="white" stroke-width="16" stroke-linecap="round"/>
+    <path d="M144 105C132 76 102 70 83 82C86 111 112 127 137 116" fill="white"/>
+    <path d="M166 100C174 65 204 52 230 57C231 94 200 122 169 117" fill="white"/>
+    <path d="M286 120C286 99 312 88 328 105C345 88 371 99 371 121C371 153 328 176 328 176C328 176 286 153 286 120Z" fill="white"/>
+    <circle cx="214" cy="245" r="15" fill="white"/>
+    <path d="M198 270L171 296" stroke="white" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M197 270L230 286" stroke="white" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M230 286L258 265" stroke="white" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M181 296L155 332" stroke="white" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M226 289L255 333" stroke="white" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg width="1200" height="820" viewBox="0 0 1200 820" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="820" fill="#FAFBF7"/>
+  <circle cx="160" cy="90" r="260" fill="#E8F8EF"/>
+  <circle cx="1050" cy="110" r="260" fill="#EAF2FF"/>
+  <circle cx="630" cy="790" r="280" fill="#FFECEC"/>
+  <rect x="90" y="90" width="380" height="620" rx="48" fill="white" stroke="#E5E7EB"/>
+  <text x="140" y="165" font-family="Arial, sans-serif" font-size="42" font-weight="800" fill="#1F2933">GoodLoop</text>
+  <text x="142" y="205" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#6B7280">Kleine Ziele. Gute Balance.</text>
+  <path d="M165 275C195 260 230 280 230 315C230 345 205 370 175 370C146 370 123 350 118 323" stroke="#35B86B" stroke-width="18" stroke-linecap="round"/>
+  <path d="M220 295C248 315 247 360 219 381C194 399 159 394 141 369C124 346 126 315 146 295" stroke="#3B82F6" stroke-width="18" stroke-linecap="round"/>
+  <path d="M140 368C122 342 130 305 159 290C186 276 220 287 234 314C246 338 238 367 216 382" stroke="#FF6B6B" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="176" cy="326" r="20" fill="#FAFBF7"/>
+  <text x="140" y="455" font-family="Arial, sans-serif" font-size="32" font-weight="800" fill="#1F2933">Heute zählt</text>
+  <text x="140" y="492" font-family="Arial, sans-serif" font-size="18" fill="#6B7280">Eine kleine gute Entscheidung reicht.</text>
+  <rect x="140" y="540" width="230" height="58" rx="29" fill="#35B86B"/>
+  <text x="200" y="577" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="white">Loslegen</text>
+  <rect x="560" y="70" width="360" height="690" rx="54" fill="#FAFBF7" stroke="#E5E7EB" stroke-width="2"/>
+  <rect x="590" y="105" width="300" height="620" rx="36" fill="white"/>
+  <text x="620" y="160" font-family="Arial, sans-serif" font-size="15" font-weight="800" fill="#1F7A46">GoodLoop</text>
+  <text x="620" y="215" font-family="Arial, sans-serif" font-size="34" font-weight="800" fill="#1F2933">Heute</text>
+  <text x="620" y="246" font-family="Arial, sans-serif" font-size="15" fill="#6B7280">2 von 3 geschafft</text>
+  <circle cx="740" cy="340" r="72" stroke="#E5E7EB" stroke-width="16"/>
+  <path d="M740 268a72 72 0 1 1 -61 110" stroke="#35B86B" stroke-width="16" stroke-linecap="round"/>
+  <text x="722" y="352" font-family="Arial, sans-serif" font-size="38" font-weight="800" fill="#1F2933">2</text>
+  <rect x="620" y="455" width="240" height="70" rx="24" fill="#E8F8EF"/>
+  <text x="650" y="497" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#1F2933">1 Apfel pro Tag ✓</text>
+  <rect x="620" y="540" width="240" height="70" rx="24" fill="#EAF2FF"/>
+  <text x="650" y="582" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#1F2933">8000 Schritte</text>
+  <rect x="620" y="625" width="240" height="70" rx="24" fill="#FFECEC"/>
+  <text x="650" y="667" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#1F2933">Kein Energy ✓</text>
+</svg>
